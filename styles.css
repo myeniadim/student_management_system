@@ -1,0 +1,194 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1rem;
+}
+
+header{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin: auto;
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+nav button{
+    flex-basis: 10rem;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    background-color: #333;
+    padding: 0.6rem;
+}
+
+nav a:hover{
+    background-color: #555;
+}
+
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    display: none;
+}
+
+.course-section {
+    display: block;
+}
+
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.form-area{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+
+.table-area {
+    height: 60vh;
+    overflow-x: auto;
+}
+
+label{
+    font-weight: bold;
+}
+
+input, select{
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.2rem;
+    width: 18rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+dialog{  
+    position: fixed;
+    z-index: 1;
+    top: 15%;
+    width: 80%;
+}
+
+.add{
+    width: 50%;
+}
+
+.add-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.add-buttons button{
+    width: 10rem;
+}
+
+.add form select{
+    width: 100%;
+}
+
+.edit{
+    width: 50%;
+}
+
+.edit form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.edit form input{
+    width: 96%;
+}
+
+.edit form select{
+    width: 100%;
+}
+
+
+
+.filter-area{
+    margin-bottom: 0.5rem;
+}
+
+.add form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.add form input{
+    width: 96%;
+}
+
+.add form select{
+    width: 98%;
+}
+
+#close-button{
+    float: right;
+}
+
+.actions{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.actions button{
+    flex-grow: 1;
+}
